@@ -40,6 +40,7 @@ function online()
 
 function offline()
 {
+    title.innerHTML = 'Offline Now'
    ul.classList.remove("hide");
    body.style.backgroundColor = '#333'
    reload.style.backgroundColor='#666'
